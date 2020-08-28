@@ -29,7 +29,7 @@ var paramsQty = 5
   
   
       fetch(
-          "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
+        //   "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
         )
           .then(function(res){ 
             return res.json()})
@@ -143,7 +143,7 @@ var paramsQty = 5
   
   
       fetch(
-          "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
+        //   "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
         )
           .then(function(res){ 
             return res.json()})
@@ -256,7 +256,7 @@ function usersDb(
   }
 
 fetch(
-        "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
+        // "https://spreadsheets.google.com/feeds/cells/1WxMXjI2m_fEQ0zZ7pTpLwcJGEixCrM3N7r7s-q4skgE/1/public/full?alt=json"
       )
         .then(function(res){ 
           return res.json()})
